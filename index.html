@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <input type="checkbox" id="toggle">
+  
+  <div class="wrapper">
+    <label for="toggle">
+    <i class="cancel-icon fas fa-times"></i>
+    </label>
+    <div class="icon"><i class="far fa-envelope"></i></div>
+    <div class="content">
+      <header>Become a Subscriber</header>
+      <p>Subscribe to our blog and get the latest updates straight to your inbox.</p>
+    </div>
+    <form action="index.php" method="POST">
+    
+      <div class="field">
+        <input type="text" class="email" name="email" placeholder="Email Address ">
+      </div>
+      <div class="field btn">
+        <div class="layer"></div>
+        <button type="submit" name="subscribe">Subscribe</button>
+      </div>
+    </form>
+    <div class="text">We do not share your information.</div>
+  </div>
+</body>
+</html>
